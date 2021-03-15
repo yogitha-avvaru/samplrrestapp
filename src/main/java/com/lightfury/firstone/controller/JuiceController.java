@@ -28,6 +28,6 @@ public class JuiceController {
 		//return "Orange";
 		System.out.println("name is"+name);
 		System.out.println("age is"+age);
-		return "name is " + name + "age is " + age;
+		return "name is  " + name +  " age is  " + age;
 	}
 }

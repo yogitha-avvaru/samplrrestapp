@@ -1,10 +1,9 @@
 package com.lightfury.firstone;
 
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface BeerRepository extends CrudRepository<Beer, Long> {
+public interface DrinkRepository extends  CrudRepository<Beer, Long>{
 
 }
